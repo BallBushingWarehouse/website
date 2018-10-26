@@ -9,7 +9,7 @@ body, html {
 }
 
 body {
-  padding-bottom: 50px;
+  padding-bottom: 150px;
 }
 
 table a {
@@ -24,6 +24,10 @@ table a {
 .break-word {
   overflow-wrap: break-word;
   word-wrap: break-word;
+}
+
+.roboto {
+  font-family: 'Roboto' !important;
 }
 
 .text-grey {
