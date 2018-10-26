@@ -1,0 +1,32 @@
+navbar {
+  nav {
+    background: #000000;
+
+    .navbar-brand {
+      color: white !important;
+    }
+
+    a.nav-link {
+      color: white !important;
+      letter-spacing: 1px;
+      font-size: 18px;
+    }
+  }
+
+  .flex-fill {
+     flex:1;   
+  }
+
+  #logo {
+    height: 50px;
+  }
+
+  .navbar-brand a {
+    color: white;
+    &:hover {
+      color: white;
+      text-decoration: none;
+      cursor: pointer;
+    }
+  }
+}

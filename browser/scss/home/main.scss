@@ -1,0 +1,24 @@
+#home {
+	fullstack-logo {
+		padding-top: 30px;
+		width: 150px;
+		margin: 0 auto;
+	}
+	h1 {
+		margin-top: 40px;
+		text-align: center;
+	}
+	.jumbotron {
+		background: linear-gradient( rgba(0,0,0,0.5), rgba(0, 0, 0, 0.7) ),url("/assets/steel1.jpg") no-repeat center center fixed;
+		color: white;
+		background-size: cover;
+		height: 450px;
+	}
+	.lead {
+	    font-weight: 500;
+	    margin-top: 55px;
+	    letter-spacing: 1px;
+	    font-size: 26px;
+	}
+}
+

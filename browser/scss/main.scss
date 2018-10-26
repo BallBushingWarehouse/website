@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Stardos Stencil', cursive;
+}
+
+body, html {
+  background: #f5f5f5;
+  min-height: 100vh;
+}
+
+body {
+  padding-bottom: 50px;
+}
+
+table a {
+  color: #2475b9 !important;
+
+  &:hover {
+    color: #008bff !important;
+    text-decoration: none !important;
+  }
+}
+
+.break-word {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.text-grey {
+  color: #bdc0c1;
+}
+
+.marg-btm-1 {
+  margin-bottom: 30px;
+}
+
+.redRing {
+  border: 2px solid red !important;
+}
+
+.section-header {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+//////////////////////////////
+// tables
+//////////////////////////////
+table {
+	background-color: white !important;
+	tr:nth-child(odd) {background-color: #f5f8fc;}	
+  tr:nth-child(even) {background-color: white;}  
+	th, td {
+		border: 0px !important;
+	}
+}
+
+table.hover {
+	tr:hover {
+		background-color: #f5f8fc;
+	}
+}
+
+thead.padded {
+  tr {
+    th {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  }
+}
+
+.table-overflow {
+  overflow-x: auto;
+}
+//////////////////////////////
+// end tables
+//////////////////////////////
+
+
+
+
+
+
+//////////////////////////////
+// text
+//////////////////////////////
+.bold {
+  font-weight: bold !important;
+}
+//////////////////////////////
+// end text
+//////////////////////////////
+
+
+
+
+
+
+
+//////////////////////////////
+// page header
+//////////////////////////////
+.page-header {
+  background-color: white;
+  padding: 25px 20px;
+  margin-bottom: 30px;
+
+  h1 {
+    margin-bottom: 0px;
+  }
+}
+
+.header-hash {
+  font-weight: regular;
+  font-size: 16px;
+  color: #777;
+}
+//////////////////////////////
+// end page header
+//////////////////////////////
+
+
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+#main {
+  // padding-top: 30px;
+  margin: 0 auto;
+}
+
+@import 'directives/main';
+@import 'home/main';
+@import 'products/main';
